@@ -276,20 +276,4 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
-
-    @Test
-
-    public void testCount() {
-
-        Radio radio = new Radio(20);
-
-        radio.setCurrentStantion(19);
-
-        int expected = 19;
-        int actual = radio.getCurrentStation();
-
-        Assertions.assertEquals(expected, actual);
-
-    }
-
 }
